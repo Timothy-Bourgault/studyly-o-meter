@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Studly-o-Meter</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Which Stud Are You?</h2>
+      </div>
+      <h4>Answer a few questions and see how studly you are!</h4>
+
+    <form id="aboutYou">
+      <h5>How much can you bench press?</h5>
+      <select class="form-control" id="myStrength">
+        <option value="0">50 lbs.</option>
+        <option value="1">100 lbs.</option>
+        <option value="2">Your mother</option>
+        <option value="3">Two Honda Civics</option>
+      </select>
+      <h5>What was your breakfast this morning?</h5>
+      <select class="form-control" id="myBreakfast">
+        <option value="0">Wheaties</option>
+        <option value="1">Raw venison</option>
+        <option value="2">Handful of bolts</option>
+        <option value="3">A bucket of bullets</option>
+      </select>
+      <h5>Someone cuts you off on the road. What do you do?</h5>
+      <select class="form-control" id="myAnger">
+        <option value="0">Smile and wave</option>
+        <option value="1">Shoot the bird</option>
+        <option value="2">Shoot the other driver</option>
+        <option value="3">Bullets ain't good enough for the miserable bastard</option>
+      </select>
+      <h5>Your bedtime ritual?</h5>
+      <select class="form-control" id="myNightTime">
+        <option value="0">Chamomile tea</option>
+        <option value="1">A night cap</option>
+        <option value="2">A bottle of Jack</option>
+        <option value="3">Listening to the Bogey Man praying that he doesn't see me under the bed</option>
+      </select>
+
+      <br />
+      <button type="submit" class="btn btn-danger">Studly Me, Brah!</button>
+    </form>
+
+    <div class="studResult" id="studlyGuy1">
+      <h2>You Are Joe Pesci!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/pesci.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>So you're not that tough, but you can cuss up storm and stab someone in the neck with a writing instrument. Pip pip.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="studResult" id="studlyGuy2">
+      <h2>You Are Stallone!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/stallone.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Rambo was the definition of studly, but you've mellowed out gracefully. Sadly that puts you lower in the studly-o-meter.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="studResult" id="studlyGuy3">
+      <h2>You Are Van Damme!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/vandamme.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>You've got the muscles from Brussels! You can roundhouse kick like (almost) no one else.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="studResult" id="studlyGuy4">
+      <h2>You Are Chuck Norris!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/norris.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Nothing more to be said, you are the paragon of studly pulchritude. The Bogey Man does indeed pray that you're not under his bed.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>
